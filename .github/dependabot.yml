@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem:"nuget" "github-actions"
+    directory: "/code/"
     schedule:
-      interval: "monthly"
+      interval: "daily"
